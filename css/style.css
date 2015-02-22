@@ -1,0 +1,67 @@
+body {
+    background:#fff;
+    font-family: 'Source Code Pro', sans-serif;
+    color:#444;
+}
+.wrap {
+    width: 60%;
+    margin: 70px auto 150px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 25px;
+    border-bottom:1px solid #ccc;
+    padding-bottom: 15px;
+}
+h2{
+    font-size:1.5em;
+    font-weight:600;
+    margin-bottom: 15px;
+    text-transform: lowercase;
+}
+h2:hover{
+    cursor:pointer;
+    color:#777;
+}
+h3 {
+    font-size: 1.3em;
+    padding-bottom: 7px;
+    text-transform: lowercase;
+}
+h3:hover {
+    cursor:pointer;
+    color: #6699ff;
+}
+p {
+    line-height: 1.25em;
+    padding-bottom:10px;
+    font-style: italic;
+}
+a {
+    text-decoration:none;
+    color:#6699ff;
+}
+
+ul {
+    margin: 10px 0 15px;
+}
+ul.active {
+    margin: 10px 0 40px;
+}
+li {
+    margin: 0 20px;
+    padding: 15px 20px 0;
+}
+li.active {
+    padding: 15px 20px;
+}
+li.active:nth-child(3n) {
+    background: #efefef;
+}
+li.active:nth-child(3n+1) {
+    background: #dedede;
+}
+li.active:nth-child(3n+2) {
+    background: #ccc;
+}
